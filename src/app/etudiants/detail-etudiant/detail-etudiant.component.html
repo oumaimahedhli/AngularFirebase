@@ -1,0 +1,18 @@
+<div *ngIf="etudiant">
+  <div>
+    <label>Prénom: </label> {{etudiant.name}}
+  </div>
+  <div>
+    <label>Age: </label> {{etudiant.age}}
+  </div>
+  <div>
+    <label>Moyenne: </label> {{etudiant.moy}}
+  </div>
+  <div>
+    <label>Classe: </label> {{etudiant.clas}}
+  </div>
+
+
+  <span class="button is-small btn-danger" (click)='deleteEtudiant()' > Delete</span>
+
+</div>

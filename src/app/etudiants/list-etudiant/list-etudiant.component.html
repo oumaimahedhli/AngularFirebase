@@ -1,0 +1,7 @@
+<h1>Etudiants</h1>
+<div *ngFor="let etudiant of etudiants" style="width: 300px;">
+  <app-detail-etudiant [etudiant]='etudiant'> </app-detail-etudiant>
+</div>
+<div style="margin-top:20px;">
+  <button type="button" class="button btn-danger" (click)='deleteEtudiant()'>Delete All</button>
+</div>

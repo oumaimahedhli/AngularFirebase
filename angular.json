@@ -88,7 +88,7 @@
               "src/favicon.ico",
               "src/assets"
             ],
-            "styles": [
+            "styles": ["styles/bootstrap-3.3.7-dist/css/bootstrap.min.css",
               "src/styles.css"
             ],
             "scripts": []
